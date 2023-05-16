@@ -16,7 +16,8 @@ After tuning the parameters, we achieved the following results:
 1. Pixel per cell = 8, cells per block = 2
 2. K Means with the following parameters:
 
-   ```MiniBatchKMeans(n_clusters=vocab_size, random_state=0, max_iter=300, batch_size=1500).fit(All_features).cluster_centers_
+   ```python
+   MiniBatchKMeans(n_clusters=vocab_size, random_state=0, max_iter=300, batch_size=1500).fit(All_features).cluster_centers_
    ```
 3. Linear SVC with c=1.0 (a lot of regularization values between .1:5000)
 4. K=1 is the best one worked for us after trying k=1,2,3
