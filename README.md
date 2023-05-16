@@ -28,7 +28,7 @@ Accuracy: 23.200%
 Comment: Not surprising as we lost most of the information when resizing each image to a small size
 
 Confusion Matrix:
-![confusion_matrix_tiny_knn](code/tiny+knn/confusion_matrix.png)
+![confusion_matrix_tiny_knn](resources/tiny-knn.png)
 
 #### 2. Bag of Words with 1NN
 
@@ -36,7 +36,7 @@ Accuracy: 46.800%
 Comment: Much better than tiny image, which is not surprising as with bag of words, we have a more sophisticated and representative representation.
 
 Confusion Matrix:
-![confusion_matrix_bow_knn](code/bag+knn/confusion_matrix.png)
+![confusion_matrix_bow_knn](resources/bag-knn.png)
 
 #### 3. Bag of Words with Multiclass LinearSVM
 
@@ -44,5 +44,5 @@ Accuracy: 52.800%
 Comment: Linear SVM gives the best accuracy between all three approaches.
 
 Confusion Matrix:
-![confusion_matrix_bow_svm](code/bag+svm/confusion_matrix.png)
+![confusion_matrix_bow_svm](resources/bag-svm.png)
 
